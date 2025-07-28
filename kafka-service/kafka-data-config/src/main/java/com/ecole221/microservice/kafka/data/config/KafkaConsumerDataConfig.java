@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ConfigurationProperties(prefix = "kafka-consumer-config")
 @Data
-public class KafkaConsumerConfig {
+public class KafkaConsumerDataConfig {
     private String keyDeserializer;
     private String valueDeserializer;
     private String autoOffsetReset;
@@ -21,6 +21,6 @@ public class KafkaConsumerConfig {
     private Integer maxPollIntervalMs;
     private Long maxPollRecords;
     private Integer maxPartitionFetchBytesDefault;
-    private Integer maxPartitionPetchBytesBoostFactor;
+    private Integer maxPartitionFetchBytesBoostFactor;
     private Integer pollTimeoutMs;
 }

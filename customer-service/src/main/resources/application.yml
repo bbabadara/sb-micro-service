@@ -33,3 +33,7 @@ kafka-producer-config:
   linger-ms: 5
   request-timeout-ms: 60000
   retry-count: 5
+
+topics:
+  customer-create-request-topic-name: customer-create-request
+  customer-create-response-topic-name: customer-create-response
