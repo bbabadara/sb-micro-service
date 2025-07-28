@@ -1,0 +1,34 @@
+{
+  "namespace": "com.ecole221.microservice.kafka.avro.model",
+  "type": "record",
+  "name": "CustomerCreateRequestAvroModel",
+  "fields":
+  [
+    {
+      "name": "nom",
+      "type": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "prenom",
+      "type": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "dateNaissance",
+      "type": {
+        "type": "int",
+        "logicalType": "date"
+      }
+    },
+    {
+      "name": "tel",
+      "type": {
+        "type": "string"
+      }
+    }
+
+  ]
+}
